@@ -12,11 +12,11 @@ export default function Home() {
    <div className="w-full">
     <Navbar/>
     <HeroSection/>
-    <AboutUs/>
-    <Services/>
-    <Portfolio/>
-    <ContactUs/>
-    <Details/>
+    <AboutUs id="about"/>
+    <Services id="services"/>
+    <Portfolio id="portfolio"/>
+    <ContactUs id="appointment"/>
+    <Details id="contact"/>
     <Footer/>
    </div>
   );

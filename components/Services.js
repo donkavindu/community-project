@@ -2,9 +2,9 @@ import Image from "next/image";
 import Star from "../public/assets/images/star.png";
 import Service from "./Service";
 
-function Services() {
+function Services({ id }) {
   return (
-    <div className="w-full">
+    <div id={id} className="w-full">
       <div className="w-full pt-10 mx-auto ">
         <div className="grid grid-cols-4">
           <div>

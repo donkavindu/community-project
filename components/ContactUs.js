@@ -1,8 +1,8 @@
 import Form from "./From";
 
-function ContactUs() {
+function ContactUs({id}) {
   return (
-    <div className="w-full">
+    <div id={id} className="w-full">
       <div className="w-[95%] mx-auto pt-16">
         <div className="text-center">
           <h3 className="text-2xl">LET’S ANSWER FOR YOUR QUERIES</h3>

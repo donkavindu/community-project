@@ -1,9 +1,9 @@
 import Image from "next/image";
 import AboutSecImg from "../public/assets/images/about.png";
 
-function AboutUs() {
+function AboutUs({id}) {
   return (
-    <div className="w-full">
+    <div id={id}  className="w-full">
       <div className="w-[95%] py-10 mx-auto flex items-center gap-10">
         <div className="flex-[1]">
           <Image

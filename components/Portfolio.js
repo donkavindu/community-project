@@ -8,9 +8,9 @@ import Image6 from "../public/assets/images/p6.png";
 import Image7 from "../public/assets/images/p7.png";
 import Star from "../public/assets/images/star.png";
 
-function Portfolio() {
+function Portfolio({id}) {
   return (
-    <div className="w-full">
+    <div id={id} className="w-full">
       <div className="w-[95%] mx-auto">
         <div className="grid grid-cols-3 min-h-[350px]">
           <div className="border-[3px] border-white">

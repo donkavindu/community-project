@@ -1,6 +1,6 @@
-function Details() {
+function Details({id}) {
   return (
-    <div className="w-full">
+    <div id={id} className="w-full">
       <div className="w-full flex gap-2 min-h-[200px] mb-2">
         <div className="flex-[1] bg-[#F9D0BD] p-5 text-white flex flex-col justify-between">
           <h3 className="text-4xl tracking-[5px]">TALK TO US</h3>
