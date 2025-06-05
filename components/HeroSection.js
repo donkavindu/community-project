@@ -8,7 +8,7 @@ function HeroSection() {
       <Image 
       src={HeroSectionImg1}
       alt="90flora"
-      className="w-[90%] mx-auto py-10 "
+      className="w-[95%] mx-auto py-10 "
       />
       <Image 
       src={HeroSectionImg2}

@@ -3,8 +3,8 @@ import Star from "../public/assets/images/star.png";
 
 function Service() {
   return (
-    <div className="border-[3px] border-white bg-[#0B2017] min-h-[300px] flex items-end relative">
-      <p className="text-white text-xl font-[100] uppercase tracking-[3px]">
+    <div className="border-[3px] border-white bg-[#0B2017] text-white hover:bg-[#F9D0BD] hover:text-[#0B2017] min-h-[300px] flex items-end relative">
+      <p className="text-xl font-[100] uppercase tracking-[3px]">
         Centrepieces
       </p>
       <Image

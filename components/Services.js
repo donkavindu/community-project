@@ -1,4 +1,3 @@
-import servicesData from "../lib/data/servicesdata";
 import Image from "next/image";
 import Star from "../public/assets/images/star.png";
 import Service from "./Service";

@@ -4,7 +4,7 @@ import AboutSecImg from "../public/assets/images/about.png";
 function AboutUs() {
   return (
     <div className="w-full">
-      <div className="w-[90%] py-10 mx-auto flex items-center gap-10">
+      <div className="w-[95%] py-10 mx-auto flex items-center gap-10">
         <div className="flex-[1]">
           <Image
             src={AboutSecImg}
