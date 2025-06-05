@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+html{
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.imgbg{
+    background-image: url("../public/assets/images/servicefooter.png");
+    background-size: cover;
+    background-position: center;
+}
